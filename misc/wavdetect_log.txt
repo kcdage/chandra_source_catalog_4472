@@ -1,0 +1,12 @@
+punlearn fluximage
+punlearn wavdetect
+fluximage repro/acisf16262_repro_evt2.fits flux/ cleanup=no bands=broad binsize=1.0 expmapthresh=""
+
+wavdetect infile="flux/broad.img" outfile="flux/wavdetect_src_16262.fits" scellfile="flux/wavdetect_cell_16262.fits" imagefile="flux/wavdetect_img_16262.fits" defnbkgfile="flux/wavdetect_bkg_16262.fits" scales="1 2 4 8 16" regfile="flux/wavdetect_16262.reg" expfile="flux/broad.expmap" verbose=5 psffile=""
+
+
+   java -jar topcat-*.jar
+
+
+cp 11274/flux/*.reg wavdetect_reg/
+cp 

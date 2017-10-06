@@ -1,0 +1,3 @@
+cp 16262/flux/*.reg wavdetect_reg/
+
+cp 321/flux/*src* wavdetect_reg/

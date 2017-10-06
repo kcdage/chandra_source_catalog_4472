@@ -1,1 +1,1 @@
-# chandra_source_catalog
+# where I mess around with trying to identify sources found using wavdetect
