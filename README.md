@@ -8,3 +8,4 @@
 * c. find a way to automate some kind of flux estimate--perhaps using python to get source count rates (not sure how to do background), then use some kind of interface with pimms to convert count rate to a flux. 
 * d. use this to see if there is variability in sources, or if anything is especially bright.
 * e. see if any of the coordinates that didn't have a simbad match are persistant. 
+ecf?
